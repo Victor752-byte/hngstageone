@@ -9,5 +9,5 @@ function ampm(){
     return "pm"
 }
 
-document.getElementById("currentTimeUTC").innerHTML=d.getHours() + ':' + d.getMinutes() + ampm();
+document.getElementById("currentTimeUTC").innerHTML=d.getUTCHours() + ':' + d.getMinutes() + ampm();
 document.getElementById("currentDay").innerHTML= days[day];
