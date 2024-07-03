@@ -1,0 +1,19 @@
+body{
+    background-color: #78d4f7;
+    font-size: 2em;
+    margin-top: 17px;
+    
+}
+
+
+@media screen and (min-width: 600px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+    body{
+        margin: 10px;
+    }
+  }
+  
